@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC62CD5D24AE835600C778DB /* font_viewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62CD5C24AE835600C778DB /* font_viewerApp.swift */; };
+		BC62CD5D24AE835600C778DB /* FontViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62CD5C24AE835600C778DB /* FontViewerApp.swift */; };
 		BC62CD5F24AE835600C778DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62CD5E24AE835600C778DB /* ContentView.swift */; };
 		BC62CD6124AE835900C778DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC62CD6024AE835900C778DB /* Assets.xcassets */; };
 		BC62CD6424AE835900C778DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC62CD6324AE835900C778DB /* Preview Assets.xcassets */; };
+		BC62CD6C24AE83A400C778DB /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62CD6B24AE83A400C778DB /* ContentViewModel.swift */; };
+		BC62CD6E24AE918600C778DB /* FontListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62CD6D24AE918600C778DB /* FontListItemView.swift */; };
+		BC62CD7024AEAEA000C778DB /* FontDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC62CD6F24AEAEA000C778DB /* FontDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC62CD5924AE835600C778DB /* font-viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "font-viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC62CD5C24AE835600C778DB /* font_viewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = font_viewerApp.swift; sourceTree = "<group>"; };
+		BC62CD5C24AE835600C778DB /* FontViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontViewerApp.swift; sourceTree = "<group>"; };
 		BC62CD5E24AE835600C778DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BC62CD6024AE835900C778DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC62CD6324AE835900C778DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC62CD6524AE835900C778DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC62CD6B24AE83A400C778DB /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		BC62CD6D24AE918600C778DB /* FontListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListItemView.swift; sourceTree = "<group>"; };
+		BC62CD6F24AEAEA000C778DB /* FontDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +58,11 @@
 		BC62CD5B24AE835600C778DB /* font-viewer */ = {
 			isa = PBXGroup;
 			children = (
-				BC62CD5C24AE835600C778DB /* font_viewerApp.swift */,
+				BC62CD5C24AE835600C778DB /* FontViewerApp.swift */,
 				BC62CD5E24AE835600C778DB /* ContentView.swift */,
+				BC62CD6F24AEAEA000C778DB /* FontDetailView.swift */,
+				BC62CD6D24AE918600C778DB /* FontListItemView.swift */,
+				BC62CD6B24AE83A400C778DB /* ContentViewModel.swift */,
 				BC62CD6024AE835900C778DB /* Assets.xcassets */,
 				BC62CD6524AE835900C778DB /* Info.plist */,
 				BC62CD6224AE835900C778DB /* Preview Content */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC62CD5F24AE835600C778DB /* ContentView.swift in Sources */,
-				BC62CD5D24AE835600C778DB /* font_viewerApp.swift in Sources */,
+				BC62CD7024AEAEA000C778DB /* FontDetailView.swift in Sources */,
+				BC62CD5D24AE835600C778DB /* FontViewerApp.swift in Sources */,
+				BC62CD6E24AE918600C778DB /* FontListItemView.swift in Sources */,
+				BC62CD6C24AE83A400C778DB /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
